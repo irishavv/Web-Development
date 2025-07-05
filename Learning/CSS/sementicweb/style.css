@@ -1,0 +1,21 @@
+.contentBox {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+
+}
+
+main{
+    height: 570px;
+    background-color: brown;
+}
+
+footer{
+    background-color: pink;
+}
+
+header{
+    height: 30px;
+    background-color: blueviolet;
+}

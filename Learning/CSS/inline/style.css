@@ -1,0 +1,36 @@
+div{
+    background-color: lightblue;
+    display : inline;
+}
+
+button{
+    display: block;
+}
+
+#box1 {
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+    
+}
+#box2 {
+    background-color: rgba(255, 0, 0,0.75);
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+    /* when we want to remove element we use none in display   will remove place but in visibility: hidden ; it will remove element but keep space for the element*/
+}
+#box3 {
+    background-color: rgb(232, 88, 112);
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+

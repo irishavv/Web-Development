@@ -1,0 +1,26 @@
+#container {
+    border: solid black 4px;
+    background-color: black;
+    width: 120px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#header, #content, #footer {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+#header {
+    background-color: red;
+}
+
+#content {
+    background-color: yellow;
+}
+
+#footer {
+    background-color: green;
+}

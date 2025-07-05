@@ -1,0 +1,71 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    border: 2px solid black;
+    /* transition: all;
+    transition-duration: 2s;
+    /* transition-timing-function: steps(5); */
+    /* transition-timing-function: ease-in;
+    transition-delay: 1s */
+    /* property name > duration > timing > delay */
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    /* transition: all 2s ease-in 0s; */
+    /* transform: rotate(360deg); */
+    /* transform: scale(2); */
+    /* transform: scale(1,2); */
+    /* animation-name: coloranimate;
+    animation-duration: 2s ; */
+    /* animation-timing-function: ease-in; */
+    /* animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+    /* shorthad of animation - myName > duration > timing > delay > iteration > direction */
+
+    /* animation: coloranimate 2s ease-in 0s infinite normal; */
+    animation: bichke 4s ease-in 0s infinite normal;
+
+}
+
+/* direction - normal,reverse, alternet reverse, alternet; */
+
+/* div:hover {
+    background-color: black;
+    color: white;
+    font-size: 20px; */
+    /* transform: scale(2); */
+    /* transform: translate(200px, 100px); */
+    /* transform: skew(25deg); */
+/* } */
+/* div:active{
+    background-color: green;
+} */
+
+/* @keyframes coloranimate {
+    from {background-color: green;}
+    to {background-color: yellow;}
+} */
+
+@keyframes coloranimate{
+    from{ left:0px}
+    to{left: 200px;}
+}
+
+@keyframes bichke {
+    0% {
+        left: 0px;
+        background-color: yellow;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        left: 200px;
+        background-color: red;
+        color: white;
+    }
+
+}
