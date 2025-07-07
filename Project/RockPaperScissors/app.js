@@ -16,12 +16,12 @@ const drawGame = () => {
     msg.style.backgroundColor = "#626C66"
 };
 
-const showWinner = (userWin, userChoice,computerChoice) => {
-    if(userWin) {
+const showWinner = (userWin, userChoice, computerChoice) => {
+    if (userWin) {
         console.log("You Win!");
         msg.innerText = `You Win! Your ${userChoice} beats ${computerChoice}`;
         msg.style.backgroundColor = "#E1CA96"
-    }else {
+    } else {
         console.log("You lose");
         msg.innerText = `You Lose.  ${computerChoice} beats Your ${userChoice}`;
         msg.style.backgroundColor = "red"
@@ -45,9 +45,19 @@ const playGame = (userChoice) => {
             userWin = computerChoice === "Paper";
         }
 
-        showWinner(userWin, userChoice, computerChoice);
+        if (userWin) {
+            userScore++;
+            document.getElementById("user-score").innerText = userScore;
+        } else {
+            computerScore++;
+            document.getElementById("comp-score").innerText = computerScore;
+        }
+
+        showWinner(userWin, userChoice, computerChoice); // ✅ keep this
     }
+
 };
+
 
 
 choices.forEach((choice) => {
