@@ -1,0 +1,99 @@
+.card{
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px red;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.card .dp {
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .dp_person{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  color: rgb(28, 6, 6);
+}
+
+.card .paragraph-content{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(109, 104, 114);
+}
+
+
+
+
+/* this is external CSS */
+.button{
+  background-color: bisque;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.student {
+  background-color: cadetblue;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+  padding: 10px;
+  border: 1px solid brown;
+  border-radius: 10px;
+
+}
+.student p{
+  margin: 0;
+  
+}
+
+.welcome-msg {
+  font-size: 2.5em;
+  background-color: rgb(95, 211, 95);
+  color: rgb(47, 16, 16);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.login-prompt{
+  font-size: 2.5em;
+  background-color: red;
+  color: rgb(47, 16, 16);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0;
+}
+
+
+.list-category {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: brown;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 10px;
+  background-color: rgb(15, 16, 11);
+}
+
+.list-items{
+  font-size: 1rem;
+  list-style: none;
+  font-weight: 200%;
+  color: rgb(1, 16, 1);
+  text-align: center;
+  margin: 0;
+}
+
+.list-items li:hover{
+  color: hsl(0, 0%, 45%);
+  cursor: pointer;
+}
