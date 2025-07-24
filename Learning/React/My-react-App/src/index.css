@@ -1,4 +1,4 @@
-.card{
+.card {
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: 5px 5px 5px red;
@@ -16,13 +16,13 @@
   margin-bottom: 10px;
 }
 
-.card .dp_person{
+.card .dp_person {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   color: rgb(28, 6, 6);
 }
 
-.card .paragraph-content{
+.card .paragraph-content {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(109, 104, 114);
 }
@@ -31,7 +31,7 @@
 
 
 /* this is external CSS */
-.button{
+.button {
   background-color: bisque;
   color: black;
   padding: 10px 20px;
@@ -42,16 +42,17 @@
 
 .student {
   background-color: cadetblue;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 2rem;
   padding: 10px;
   border: 1px solid brown;
   border-radius: 10px;
 
 }
-.student p{
+
+.student p {
   margin: 0;
-  
+
 }
 
 .welcome-msg {
@@ -63,7 +64,7 @@
   margin: 0;
 }
 
-.login-prompt{
+.login-prompt {
   font-size: 2.5em;
   background-color: red;
   color: rgb(47, 16, 16);
@@ -84,7 +85,7 @@
   background-color: rgb(15, 16, 11);
 }
 
-.list-items{
+.list-items {
   font-size: 1rem;
   list-style: none;
   font-weight: 200%;
@@ -93,7 +94,36 @@
   margin: 0;
 }
 
-.list-items li:hover{
+.list-items li:hover {
   color: hsl(0, 0%, 45%);
   cursor: pointer;
+}
+
+
+.counter-container {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.count-display {
+  font-size: 7rem;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.counter-button {
+  width: 150px;
+  height: 50px;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: rgb(146, 177, 235);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.counter-button:hover {
+  background-color: hsl(197, 100%, 48%);
 }
