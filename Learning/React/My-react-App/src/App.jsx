@@ -8,11 +8,13 @@ import UserGreeting from "./UserGreeting";
 import List from "./List";
 import MyComponent from "./MyComponent";
 import Counter from "./Counter";
+import ColorPicker from "./ColorPicker";
 
 function App() {
   return (
     <>
       <Header />
+      <ColorPicker />
       <MyComponent />
       <Counter />
       <List />
