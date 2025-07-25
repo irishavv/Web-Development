@@ -9,11 +9,16 @@ import List from "./List";
 import MyComponent from "./MyComponent";
 import Counter from "./Counter";
 import ColorPicker from "./ColorPicker";
+import ListUpdate from "./ListUpdate";
+import CarList from "./CarList";
+
 
 function App() {
   return (
     <>
       <Header />
+      <CarList />
+      <ListUpdate />
       <ColorPicker />
       <MyComponent />
       <Counter />
@@ -28,9 +33,8 @@ function App() {
       <Button />
       <Card />
       <Card />
-      <Card />
-      <Card />
-      <Card />
+
+
       <Footer />
     </>
   );
