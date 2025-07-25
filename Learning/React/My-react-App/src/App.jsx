@@ -13,8 +13,8 @@ function App() {
   return (
     <>
       <Header />
-      <Counter />
       <MyComponent />
+      <Counter />
       <List />
       <UserGreeting isLoggedIn={true} username="i_rishavv" />
       <Student name="Rishav Kumar" age={25} isStudent={true} />

@@ -23,6 +23,33 @@ function MyComponent() {
     }
 
 
+
+    const [oldName, newName] = useState("Guest");
+    const [quantity, setQuantity] = useState(1);
+    const [comment, setComment] = useState("");
+    const [payment, setPayment] = useState("");
+    const [shipping, setShipping] = useState("");
+
+    function updateNewName(event){
+        newName(event.target.value);
+    }
+
+    function handleQueantityChange(event){
+        setQuantity(event.target.value);
+    }
+
+    function handleCommentChange(event){
+        setComment(event.target.value);
+    }
+
+    function handlePaymentChange(event) {
+        setPayment(event.target.value);
+    }
+
+    function handleShippingChnage(event) {
+        setShipping(event.target.value);
+    }
+
     return(
         <div>
             <p>Name: {name}</p>
@@ -33,6 +60,40 @@ function MyComponent() {
             <button onClick={increaseNum}>Counting</button>
             <p>Is Student: {isStudent ? "Yes" : "No"}</p>
             <button onClick={toggleStudentStatus}>Check Student</button>
+            <br />
+            <br />
+
+            <input value={oldName} onChange={updateNewName}/>
+            <p>Name: {oldName}</p>
+
+            <input value={quantity} onChange={handleQueantityChange} type='number' />
+            <p>Quantity: {quantity}</p>
+
+
+            <textarea value={comment} onChange={handleCommentChange} placeholder='Enter delivery instruction'/>
+            <p>Comment: {comment}</p>
+
+            <select value={payment} onChange={handlePaymentChange}>
+                <option value="">Select an Option</option>
+                <option value="Visa">Visa</option>
+                <option value="MasterCard">MasterCard</option>
+                <option value="GiftCard">GiftCard</option>
+            </select>
+
+            <p>Payment: {payment}</p>
+
+
+
+            <label>
+                <input type="radio" value="Pick up" checked={shipping === "Pick up"} onChange={handleShippingChnage} />
+                Pick up
+            </label>
+            <label>
+                <input type="radio" value="Delivery" checked={shipping === "Delivery"} onChange={handleShippingChnage} />
+                Delivery
+            </label>
+
+            <p>Shipping: {shipping}</p>
         </div>
     );
 }
