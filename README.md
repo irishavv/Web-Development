@@ -1,6 +1,6 @@
 # 💻 Web Development Projects & Learning Repository
 
-This repository is a collection of my frontend development projects, learning materials, and hands-on practice exercises. It demonstrates my progress in mastering **HTML**, **CSS**, and **JavaScript** through practical implementation.
+This repository is a collection of my frontend development projects, learning materials, and hands-on practice exercises. It demonstrates my progress in mastering **HTML**, **CSS**, **JavaScript**, and **React** through practical implementation.
 
 ---
 
