@@ -11,12 +11,16 @@ import Counter from "./Counter";
 import ColorPicker from "./ColorPicker";
 import ListUpdate from "./ListUpdate";
 import CarList from "./CarList";
+import UseEffect from "./UseEffect";
+import WidthHeight from "./WidthHeight";
 
 
 function App() {
   return (
     <>
       <Header />
+      <WidthHeight />
+      <UseEffect />
       <CarList />
       <ListUpdate />
       <ColorPicker />

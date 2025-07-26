@@ -43,3 +43,5 @@ This part of the repository includes smaller practice projects, experiments, and
 - HTML semantics and form handling
 
 These exercises reflect my journey in learning the foundational skills of web development.
+
+<!-- npm create vite@latest -->
