@@ -16,7 +16,9 @@ function WidthHeight() {
             console.log("Event count removed");
         }
     },[])
-    window.addEventListener("resize", handleResize);
+
+
+
 
     function handleResize() {
         setWidth(window.innerWidth);

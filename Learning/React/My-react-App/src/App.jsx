@@ -13,12 +13,17 @@ import ListUpdate from "./ListUpdate";
 import CarList from "./CarList";
 import UseEffect from "./UseEffect";
 import WidthHeight from "./WidthHeight";
+import React from "react";
+import ComponentA from "./ComponentA";
+import ComponentUR from "./ComponentUR";
 
 
 function App() {
   return (
     <>
       <Header />
+      <ComponentUR/>
+      <ComponentA />
       <WidthHeight />
       <UseEffect />
       <CarList />
