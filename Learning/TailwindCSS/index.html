@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./src/output.css" rel="stylesheet" />
+  <title>Tailwind Layout</title>
+</head>
+
+<body class="bg-slate-700 grid place-content-center min-h-screen p-4">
+
+  <!-- Heading -->
+  <h1 class="text-3xl font-bold underline text-white mb-4 text-center">
+    Hello world!
+  </h1>
+
+  <!-- Profile Card -->
+  <div class="bg-slate-900 p-6 max-w-sm mx-auto rounded-xl shadow-lg flex items-center space-x-4">
+    <img class="h-20 w-20 rounded-full object-cover"
+      src="https://cdn.freebiesupply.com/logos/large/2x/rs-logo-png-transparent.png" alt="RS logo" />
+    <div>
+      <p class="text-2xl font-medium text-white">Rishav Kumar</p>
+      <p class="text-base font-medium text-white">Hindustan</p>
+    </div>
+  </div>
+
+  <!-- Button -->
+  <div class="text-center mt-4">
+    <button
+      class="bg-sky-500 text-white text-base px-4 py-2 rounded-full hover:bg-white hover:text-black transition-colors duration-300 dark:bg-green-300">
+      Buy now
+    </button>
+  </div>
+
+  <!-- Responsive Paragraph -->
+  <div class="text-center my-4 px-4">
+    <p class="text-white md:text-green-600 sm:text-red-700">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam enim
+      accusantium perferendis dignissimos quibusdam eos deserunt ea veritatis
+      culpa voluptates voluptate labore doloribus molestiae, minima animi ad
+      aliquam quidem autem.
+    </p>
+  </div>
+
+  <!-- Image Card -->
+  <div class="mt-4">
+    <div class="max-w-sm mx-auto bg-white rounded-xl overflow-hidden shadow-md md:max-w-2xl">
+      <img
+        class="w-full h-48 md:h-60 lg:h-72 object-cover"
+        src="https://images.unsplash.com/photo-1740940347895-6eb17e253921?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="carphoto" />
+      <div class="p-4">
+        <p class="text-gray-800 font-semibold text-lg">Beautiful Car Design</p>
+        <p class="text-gray-600 text-sm mt-1">
+          High-performance and modern aesthetics blend perfectly in this masterpiece.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
