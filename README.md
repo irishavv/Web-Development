@@ -45,3 +45,7 @@ This part of the repository includes smaller practice projects, experiments, and
 These exercises reflect my journey in learning the foundational skills of web development.
 
 <!-- npm create vite@latest -->
+
+<!-- npm init -->
+<!--     "start": "node app.js" in script -->
+<!-- npm install nodemon --save-dev -->
