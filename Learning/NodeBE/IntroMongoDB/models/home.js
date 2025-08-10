@@ -32,7 +32,7 @@ module.exports = class Home {
     }
   }
 
-  static fetchAll() {
+  static find() {
     const db = getDB();
     return db.collection('homes').find().toArray();
   }
